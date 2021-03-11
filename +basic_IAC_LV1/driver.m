@@ -212,7 +212,7 @@ M_.equations_tags = {
   9 , 'name' , '9' ;
   10 , 'name' , '10' ;
   11 , 'name' , '11' ;
-  12 , 'name' , '12' ;
+  12 , 'name' , 'A' ;
   13 , 'name' , 'dp' ;
   14 , 'name' , 'R' ;
   15 , 'name' , '15' ;

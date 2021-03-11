@@ -1,0 +1,74 @@
+Starting preprocessing of the model file ...
+Substitution of endo leads >= 2: added 1 auxiliary variables and equations.
+Found 8 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+[Warning: Some of the parameters have no value (GAMMA) when using steady. If these parameters are not initialized in a steadystate
+file or a steady_state_model-block, Dynare may not be able to solve the model...] 
+
+STEADY-STATE RESULTS:
+
+Y                		 -0.180516
+X                		 0.182322
+C                		 -0.180516
+l                		 -0.180516
+w                		 -0.182322
+r                		 0.0202022
+dp               		 -3.13567e-07
+[Warning: Some of the parameters have no value (GAMMA) when using stoch_simul. If these parameters are not initialized in a
+steadystate file or a steady_state_model-block, Dynare may not be able to solve the model...] 
+
+MODEL SUMMARY
+
+  Number of variables:         8
+  Number of stochastic shocks: 1
+  Number of state variables:   2
+  Number of jumpers:           3
+  Number of static variables:  4
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables           u
+u            0.000008
+
+POLICY AND TRANSITION FUNCTIONS
+                                   Y              dp               X               r               C
+Constant                   -0.180516               0        0.182322        0.020202       -0.180516
+r(-1)                      -2.448669       -0.590626        2.473156        0.622812       -2.448669
+C(-1)                       0.093342        0.007475       -0.094276        0.002242        0.093342
+u                          -3.060836       -0.738282        3.091445        0.778515       -3.060836
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+Y             -0.1805     0.0116     0.0001
+dp            -0.0000     0.0027     0.0000
+X              0.1823     0.0117     0.0001
+r              0.0202     0.0028     0.0000
+C             -0.1805     0.0116     0.0001
+
+
+
+MATRIX OF CORRELATIONS
+Variables         Y      dp       X       r       C
+Y            1.0000  0.9988 -1.0000 -0.9967  1.0000
+dp           0.9988  1.0000 -0.9988 -0.9995  0.9988
+X           -1.0000 -0.9988  1.0000  0.9967 -1.0000
+r           -0.9967 -0.9995  0.9967  1.0000 -0.9967
+C            1.0000  0.9988 -1.0000 -0.9967  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+Y         0.6733  0.4186  0.2569  0.1574  0.0964
+dp        0.6386  0.3937  0.2413  0.1478  0.0905
+X         0.6733  0.4186  0.2569  0.1574  0.0964
+r         0.6134  0.3757  0.2300  0.1408  0.0862
+C         0.6733  0.4186  0.2569  0.1574  0.0964
+Total computing time : 0h00m00s
+Note: warning(s) encountered in MATLAB/Octave code
